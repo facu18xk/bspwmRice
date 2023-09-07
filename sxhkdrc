@@ -3,7 +3,7 @@
 #  ╚═╝╩ ╚═╩ ╩╩ ╩═╩╝╩╚═╚═╝  - z0mbi3.zk@protonmail.com
 #			z0mbi3 config..
 super + Return + shift
-	pcmanfm
+	nnn
 # Open Terminal (alacritty)
 super + Return
 	alacritty
@@ -16,10 +16,6 @@ super + d
 # Theme Selector
 alt + @space
 	RiceSelector
-
-# Power off, Reboot, Log out, Lockscreen, kill an app
-ctrl + super + alt + {p,r,q,l,k}
-	{systemctl poweroff, systemctl reboot,bspc quit,physlock -d,xkill}
 super + @space   
  bspc node -t "~"{floating,tiled}
 # Hide/Show Bar (Polybar and/or eww)

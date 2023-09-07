@@ -286,19 +286,12 @@ bspc rule -a Anki desktop=^2 -o state=floating center=true rectangle=890x510+0+0
 xsetroot -cursor_name left_ptr &
 bspc rule -a Spotify desktop=^5 
 bspc rule -a firefox desktop=^1 
-bspc rule -a Xournalpp desktop=^2 
+bspc rule -a rnote desktop=^2
 bspc rule -a Anki desktop=^2  
 bspc rule -a Alacritty desktop=^1 
 bspc rule -a pentablet desktop=^6 
 xournalpp &
-#discord & 
-#iriunwebcam &
 anki &
 alacritty &
-#spotify &
-#/usr/share/spotify/spotify &
-/usr/lib/pentablet/pentablet.sh &
 firefox &
 wmname LG3D &
-#/home/faq/Downloads/Obsidian-1.3.5.AppImage *
-shutdown -h 21:00 &
